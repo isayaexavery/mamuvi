@@ -1,11 +1,8 @@
 "use client";
 import SingleContent from "@/components/singlecontent/SingleContent";
-import Tab from "@/components/tab/tab";
-import { Button, Tabs, TextField } from "@mui/material";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./Search.css";
-// import {  } from 'boostrap'
 
 const Search = () => {
   const [type, setType] = useState(false);

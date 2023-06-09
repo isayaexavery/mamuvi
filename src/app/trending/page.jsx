@@ -4,7 +4,6 @@ import "./Trending.css";
 // import SingleContent from "@/components/singlecontent/SingleContent";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-// import Pagination from "@/components/pagination/Pagination";
 
 function Trending() {
   const [page, setPage] = useState(1);

@@ -4,9 +4,9 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div>
-      <div>©2023 Mamayo. All rights reserved.</div>
-      <div className={styles.social}>
+    <div className={styles.footerContainer}>
+      <div>©2023 Mamuvi. All rights reserved.</div>
+      {/* <div className={styles.social}>
         <Image
           src="/1.png"
           width={15}
@@ -35,7 +35,7 @@ function Footer() {
           className={styles.icon}
           alt=""
         />
-      </div>
+      </div> */}
     </div>
   );
 }

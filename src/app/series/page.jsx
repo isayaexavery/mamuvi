@@ -4,12 +4,9 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Series = () => {
-  const [genres, setGenres] = useState([]);
-  const [selectedGenres, setSelectedGenres] = useState([]);
   const [page, setPage] = useState(1);
   const [content, setContent] = useState([]);
   const [numOfPages, setNumOfPages] = useState();
-  // const genreforURL = useGenre(selectedGenres);
 
   const fetchSeries = async () => {
     const { data } = await axios.get(
